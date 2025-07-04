@@ -1,0 +1,10 @@
+name: Check Events
+
+on: push
+
+jobs:
+    print:
+        runs-on: ubuntu-latest
+        steps:
+            -name: print value
+            run: echo hello
